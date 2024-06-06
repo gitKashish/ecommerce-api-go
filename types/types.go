@@ -11,11 +11,11 @@ type User struct {
 	CreatedAt time.Time `json:"createAt"`
 }
 
-type RegisterUsePayload struct {
-	FirstName string `json:"firstName"`
-	LastName  string `json:"LastName"`
-	Email     string `json:"email"`
-	Password  string `json:"password"`
+type RegisterUserPayload struct {
+	FirstName string `json:"firstName" validate:"required"`
+	LastName  string `json:"LastName" validate:"required"`
+	Email     string `json:"email" validate:"required,email"`
+	Password  string `json:"password" validate:"required,min=3,max=128"`
 }
 
 type UserStore interface {

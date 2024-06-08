@@ -6,7 +6,6 @@ import (
 
 	"github.com/gitKashish/EcomServer/config"
 	"github.com/gitKashish/EcomServer/db"
-	_ "github.com/go-sql-driver/mysql"
 	mySqlDriver "github.com/go-sql-driver/mysql"
 	"github.com/golang-migrate/migrate/v4"
 	mySqlMigrate "github.com/golang-migrate/migrate/v4/database/mysql"

@@ -11,6 +11,12 @@ type User struct {
 	CreatedAt time.Time `json:"createAt"`
 }
 
+type UserStore interface {
+	GetUserByEmail(email string) (*User, error)
+	GetUserByID(id int) (*User, error)
+	CreateUser(User) error
+}
+
 type RegisterUserPayload struct {
 	FirstName string `json:"firstName" validate:"required"`
 	LastName  string `json:"LastName" validate:"required"`
@@ -21,12 +27,6 @@ type RegisterUserPayload struct {
 type LoginUserPayload struct {
 	Email    string `json:"email" validate:"required,email"`
 	Password string `json:"password" validate:"required"`
-}
-
-type UserStore interface {
-	GetUserByEmail(email string) (*User, error)
-	GetUserByID(id int) (*User, error)
-	CreateUser(User) error
 }
 
 type Product struct {

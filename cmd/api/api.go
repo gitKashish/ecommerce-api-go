@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/gitKashish/EcomServer/service/cart"
+	"github.com/gitKashish/EcomServer/service/order"
 	"github.com/gitKashish/EcomServer/service/product"
 	"github.com/gitKashish/EcomServer/service/user"
 )
@@ -35,6 +37,11 @@ func (s *APIServer) Run() error {
 	productStore := product.NewStore(s.db)
 	productHandler := product.NewHandler(productStore)
 	productHandler.RegisterRoutes(router)
+
+	// Cart handler service
+	orderStore := order.NewStore(s.db)
+	cartHandler := cart.NewHandler(orderStore, userStore, productStore)
+	cartHandler.RegisterRoutes(router)
 
 	fmt.Printf("Starting server at %s\n", s.addr)
 	return http.ListenAndServe(s.addr, subrouter)

@@ -88,7 +88,7 @@ func scanRowIntoProduct(rows *sql.Rows) (*types.Product, error) {
 }
 
 func (s *Store) UpdateProduct(product types.Product) error {
-	_, err := s.db.Exec("UPDATE products SET name = ?, image = ?, description = ?, quantity = ? WHERE id = ?", product.Name, product.Image, product.Description, product.Quantity, product.ID)
+	_, err := s.db.Exec("UPDATE products SET name = ?, image = ?, description = ?, quantity = ?, WHERE id = ?", product.Name, product.Image, product.Description, product.Quantity, product.ID)
 
 	if err != nil {
 		return err

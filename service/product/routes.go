@@ -32,5 +32,6 @@ func (h *Handler) handleGetProducts(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Writing a JSON response.
 	utils.WriteJSON(w, http.StatusOK, products)
 }

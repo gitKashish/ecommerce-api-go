@@ -143,5 +143,7 @@ func (h *Handler) handleRegister(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Responding with http.StatusCreated.
-	utils.WriteJSON(w, http.StatusCreated, nil)
+	utils.WriteJSON(w, http.StatusCreated, map[string]string{
+		"message": "User registered successfully",
+	})
 }

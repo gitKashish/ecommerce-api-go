@@ -46,13 +46,13 @@ This project provides a RESTful API for an e-commerce application, developed in 
    CREATE DATABASE ecom;
    ```
    
-3. Run the UP database migrations:
+3. Run the `UP` database migrations:
 
    ```bash
    make migrate-up
    ```
    
-4. Run the DOWN database migrations: (Drops tables)
+4. Run the `DOWN` database migrations: (Drops tables)
 
    ```bash
    make migrate-down
@@ -87,7 +87,7 @@ This project provides a RESTful API for an e-commerce application, developed in 
    make run
    ```
    
-7. The API will be available at `http://localhost:8080/v1`.
+7. The API will be available at `http://localhost:8080`.
 
 ## API Endpoints
 

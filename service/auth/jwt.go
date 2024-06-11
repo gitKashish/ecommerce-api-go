@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gitKashish/EcomServer/config"
-	"github.com/gitKashish/EcomServer/types"
-	"github.com/gitKashish/EcomServer/utils"
+	"github.com/gitKashish/ecommerce-api-go/config"
+	"github.com/gitKashish/ecommerce-api-go/types"
+	"github.com/gitKashish/ecommerce-api-go/utils"
 	"github.com/golang-jwt/jwt"
 )
 

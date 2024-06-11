@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gitKashish/EcomServer/types"
+	"github.com/gitKashish/ecommerce-api-go/types"
 )
 
 type Store struct {

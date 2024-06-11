@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/gitKashish/EcomServer/config"
-	"github.com/gitKashish/EcomServer/db"
+	"github.com/gitKashish/ecommerce-api-go/config"
+	"github.com/gitKashish/ecommerce-api-go/db"
 	mySqlDriver "github.com/go-sql-driver/mysql"
 	"github.com/golang-migrate/migrate/v4"
 	mySqlMigrate "github.com/golang-migrate/migrate/v4/database/mysql"

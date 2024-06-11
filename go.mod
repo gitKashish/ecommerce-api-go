@@ -1,4 +1,4 @@
-module github.com/gitKashish/EcomServer
+module github.com/gitKashish/ecommerce-api-go
 
 go 1.22.3
 

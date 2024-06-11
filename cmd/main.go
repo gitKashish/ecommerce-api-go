@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/gitKashish/EcomServer/cmd/api"
-	"github.com/gitKashish/EcomServer/config"
-	"github.com/gitKashish/EcomServer/db"
+	"github.com/gitKashish/ecommerce-api-go/cmd/api"
+	"github.com/gitKashish/ecommerce-api-go/config"
+	"github.com/gitKashish/ecommerce-api-go/db"
 	"github.com/go-sql-driver/mysql"
 )
 

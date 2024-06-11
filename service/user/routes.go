@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gitKashish/EcomServer/config"
-	"github.com/gitKashish/EcomServer/service/auth"
-	"github.com/gitKashish/EcomServer/types"
-	"github.com/gitKashish/EcomServer/utils"
+	"github.com/gitKashish/ecommerce-api-go/config"
+	"github.com/gitKashish/ecommerce-api-go/service/auth"
+	"github.com/gitKashish/ecommerce-api-go/types"
+	"github.com/gitKashish/ecommerce-api-go/utils"
 	"github.com/go-playground/validator/v10"
 )
 

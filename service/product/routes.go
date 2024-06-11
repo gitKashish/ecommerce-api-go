@@ -3,8 +3,8 @@ package product
 import (
 	"net/http"
 
-	"github.com/gitKashish/EcomServer/types"
-	"github.com/gitKashish/EcomServer/utils"
+	"github.com/gitKashish/ecommerce-api-go/types"
+	"github.com/gitKashish/ecommerce-api-go/utils"
 )
 
 type Handler struct {

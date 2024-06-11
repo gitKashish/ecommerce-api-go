@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gitKashish/EcomServer/types"
+	"github.com/gitKashish/ecommerce-api-go/types"
 )
 
 func TestUserServiceHandlers(t *testing.T) {

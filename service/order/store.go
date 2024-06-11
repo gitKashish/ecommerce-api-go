@@ -3,7 +3,7 @@ package order
 import (
 	"database/sql"
 
-	"github.com/gitKashish/EcomServer/types"
+	"github.com/gitKashish/ecommerce-api-go/types"
 )
 
 type Store struct {

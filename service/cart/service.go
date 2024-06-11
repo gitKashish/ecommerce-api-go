@@ -3,7 +3,7 @@ package cart
 import (
 	"fmt"
 
-	"github.com/gitKashish/EcomServer/types"
+	"github.com/gitKashish/ecommerce-api-go/types"
 )
 
 // Return a list of only cart items & provides some validation(mentioned below).

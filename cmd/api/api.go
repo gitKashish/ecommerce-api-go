@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gitKashish/EcomServer/service/cart"
-	"github.com/gitKashish/EcomServer/service/order"
-	"github.com/gitKashish/EcomServer/service/product"
-	"github.com/gitKashish/EcomServer/service/user"
+	"github.com/gitKashish/ecommerce-api-go/service/cart"
+	"github.com/gitKashish/ecommerce-api-go/service/order"
+	"github.com/gitKashish/ecommerce-api-go/service/product"
+	"github.com/gitKashish/ecommerce-api-go/service/user"
 )
 
 type APIServer struct {

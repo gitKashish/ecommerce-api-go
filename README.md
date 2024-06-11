@@ -23,13 +23,13 @@ This project provides a RESTful API for an e-commerce application, developed in 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/gitKashish/EcomServer.git
+   git clone https://github.com/gitKashish/ecommerce-api-go.git
    ```
    
 3. Navigate to the project directory:
 
    ```bash
-   cd EcomServer
+   cd ecommerce-api-go
    ```
    
 4. Install dependencies:

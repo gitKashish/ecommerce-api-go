@@ -17,6 +17,7 @@ This project provides a RESTful API for an e-commerce application, developed in 
 
 - Go 1.22 (utilizes new `net/http` enhancements)
 - MySQL
+- GNU Make
 
 ### Installation
 
